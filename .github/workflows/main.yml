@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
       # Using the podcast generator we created in another repo
       - name: Run Feed Generator
-        uses: itzzjb/Podcast-Generator-With-Github-Actions@main
+        uses: itzzjb/podcast-generator-with-github-actions@main
       
       # - name: Setup Python
       #   uses: actions/setup-python@v4
